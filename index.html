@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+        <link
+            href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+            rel="stylesheet"
+        />
+        <link rel="stylesheet" href="style.css" />
+        <title>Bank Dash</title>
+    </head>
+    <body>
+        <div class="container">
+            <!-- NAVIGATION -->
+            <nav>
+                <a class="logo" href="/"
+                    ><img src="./img/Logo.png" alt="logo"
+                /></a>
+
+                <ul class="nav-list">
+                    <li>
+                        <a class="list-item" href="#">
+                            <ion-icon
+                                class="icon active"
+                                name="home"
+                            ></ion-icon>
+                            <p class="list-item__title active">Dashboard</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-item" href="#">
+                            <ion-icon
+                                class="icon"
+                                name="transgender-outline"
+                            ></ion-icon>
+                            <p class="list-item__title">Transactions</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-item" href="#">
+                            <ion-icon
+                                class="icon"
+                                name="person-circle-outline"
+                            ></ion-icon>
+                            <p class="list-item__title">Accounts</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-item" href="#">
+                            <ion-icon
+                                class="icon"
+                                name="cash-outline"
+                            ></ion-icon>
+                            <p class="list-item__title">Investments</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-item" href="#">
+                            <ion-icon
+                                class="icon"
+                                name="card-outline"
+                            ></ion-icon>
+                            <p class="list-item__title">Credit Cards</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-item" href="#">
+                            <ion-icon
+                                class="icon"
+                                name="wallet-outline"
+                            ></ion-icon>
+                            <p class="list-item__title">Loans</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-item" href="#">
+                            <ion-icon
+                                class="icon"
+                                name="hammer-outline"
+                            ></ion-icon>
+                            <p class="list-item__title">Services</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-item" href="#">
+                            <ion-icon
+                                class="icon"
+                                name="flame-outline"
+                            ></ion-icon>
+                            <p class="list-item__title">My Privileges</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a class="list-item" href="#">
+                            <ion-icon
+                                class="icon"
+                                name="settings-outline"
+                            ></ion-icon>
+                            <p class="list-item__title">Setting</p>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+            <!-- HEADER -->
+            <header>
+                <h2>Overview</h2>
+                <div class="btns">
+                    <div class="search">
+                        <ion-icon
+                            class="search-icon"
+                            name="search-outline"
+                        ></ion-icon>
+                        <input
+                            type="text"
+                            placeholder="Search for something"
+                            name="search"
+                        />
+                    </div>
+                    <button class="nav-button">
+                        <ion-icon
+                            class="icon-nav-settings"
+                            name="settings-outline"
+                        ></ion-icon>
+                    </button>
+                    <button class="nav-button">
+                        <ion-icon
+                            class="icon-nav-notification"
+                            name="notifications-outline"
+                        ></ion-icon>
+                    </button>
+                    <button class="nav-button-profile">
+                        <img
+                            src="./img/pexels-christina-morillo-1181690 1.png"
+                            alt="picture"
+                            class="profile-pic"
+                        />
+                    </button>
+                </div>
+            </header>
+
+            <!-- MAIN -->
+            <main>
+                <section class="cards_transactions">
+                    <div class="my-cards">
+                        <div class="titles">
+                            <h3 class="titles__my-cards">My Cards</h3>
+                            <a class="titles__see-all">See All</a>
+                        </div>
+
+                        <div class="cards">
+                            <div class="card-1">
+                                <div class="card blue">
+                                    <div class="row-1">
+                                        <div class="balance_sum">
+                                            <p class="balance-w">Balance</p>
+                                            <p class="sum">$5,756</p>
+                                        </div>
+                                        <img
+                                            class="chip-card"
+                                            src="./img/Chip_Card.png"
+                                            alt="pic-logo"
+                                        />
+                                    </div>
+                                    <div class="row-2">
+                                        <div class="holder_name">
+                                            <p class="holder">CARD HOLDER</p>
+                                            <p class="name">Eddy Cusuma</p>
+                                        </div>
+                                        <div class="valid_date">
+                                            <p class="valid">VALID THRU</p>
+                                            <p class="date">12/22</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row-3">
+                                    <p class="card-serial">
+                                        3778 **** **** 1234
+                                    </p>
+                                    <img
+                                        class="logo-mini"
+                                        src="./img/Group 17.png"
+                                        alt="logo-mini"
+                                    />
+                                </div>
+                            </div>
+
+                            <div class="card-2">
+                                <div class="card white">
+                                    <div class="row-1">
+                                        <div class="balance_sum">
+                                            <p class="balance-w">Balance</p>
+                                            <p class="sum-w">$5,756</p>
+                                        </div>
+                                        <img
+                                            class="chip-card"
+                                            src="./img/Chip_Card (1).png"
+                                            alt="pic-logo"
+                                        />
+                                    </div>
+                                    <div class="row-2">
+                                        <div class="holder_name">
+                                            <p class="holder-w">CARD HOLDER</p>
+                                            <p class="name-w">Eddy Cusuma</p>
+                                        </div>
+                                        <div class="valid_date">
+                                            <p class="valid-w">VALID THRU</p>
+                                            <p class="date-w">12/22</p>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="row-3-w">
+                                    <p class="card-serial-w">
+                                        3778 **** **** 1234
+                                    </p>
+                                    <img
+                                        class="logo-mini"
+                                        src="./img/Group 17 (1).png"
+                                        alt="logo-mini"
+                                    />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="transactions">
+                        <h3 class="transactions__title">Recent Transaction</h3>
+                        <div class="transactions__list">
+                            <div class="transactions__row">
+                                <img src="./img/Group 313.png" alt="pic" />
+                                <div class="trans__title-date">
+                                    <p class="trans__title">
+                                        Deposit from my Card
+                                    </p>
+                                    <p class="trans__date">28 January 2021</p>
+                                </div>
+                                <div class="trans__sum-minus">-$850</div>
+                            </div>
+
+                            <div class="transactions__row">
+                                <img src="./img/Group 314.png" alt="pic" />
+                                <div class="trans__title-date">
+                                    <p class="trans__title">Deposit Paypal</p>
+                                    <p class="trans__date">25 January 2021</p>
+                                </div>
+                                <div class="trans__sum">+$2,500</div>
+                            </div>
+
+                            <div class="transactions__row">
+                                <img src="./img/Group 315.png" alt="pic" />
+                                <div class="trans__title-date">
+                                    <p class="trans__title">Jemi Wilson</p>
+                                    <p class="trans__date">21 January 2021</p>
+                                </div>
+                                <div class="trans__sum">+$5,400</div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section class="activity__statistics">
+                    <div class="activity">
+                        <div class="activity__title">
+                            <h3>Weekly Activity</h3>
+                        </div>
+                        <div class="activity__box">
+                            <img
+                                src="./img/Group 240.png"
+                                alt="activity_chart"
+                            />
+                        </div>
+                    </div>
+                    <div class="statistics">
+                        <div class="statistics__title">
+                            <h3>Expense Statistics</h3>
+                        </div>
+                        <div class="statistics__box">
+                            <img
+                                class="stat_chart"
+                                src="./img/Group.png"
+                                alt="stat_chart"
+                            />
+                        </div>
+                    </div>
+                </section>
+
+                <section class="transfer_balance">
+                    <div class="transfer">
+                        <div class="transfer__title">
+                            <h3>Quick Transfer</h3>
+                        </div>
+                        <div class="transfer__box">
+                            <div class="cards_btn">
+                                <div class="transfer__card">
+                                    <img
+                                        class="card__img"
+                                        src="./img/pexels-julia-volk-5273755 1.png"
+                                        alt="julia"
+                                    />
+                                    <div class="card__name">Livia Bator</div>
+                                    <div class="card__positon">CEO</div>
+                                </div>
+
+                                <div class="transfer__card">
+                                    <img
+                                        class="card__img"
+                                        src="./img/marcel-strauss-Uc_tOqa_jDY-unsplash 1.png"
+                                        alt="julia"
+                                    />
+                                    <div class="card__name">Randy Press</div>
+                                    <div class="card__positon">Director</div>
+                                </div>
+
+                                <div class="transfer__card">
+                                    <img
+                                        class="card__img"
+                                        src="./img/emanuel-minca-jYv069cQuB8-unsplash 1.png"
+                                        alt="julia"
+                                    />
+                                    <div class="card__name">Workman</div>
+                                    <div class="card__positon">Designer</div>
+                                </div>
+
+                                <img
+                                    class="shevron__btn"
+                                    src="./img/Group 56.png"
+                                    alt="btn"
+                                />
+                            </div>
+
+                            <div class="amount_btn">
+                                <p>Write Amount</p>
+                                <img src="./img/Group 311.png" alt="" />
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="balance">
+                        <div class="balance__title">
+                            <h3>Balance History</h3>
+                        </div>
+                        <div class="balance__box">
+                            <img
+                                src="./img/Group 323.png"
+                                alt="balance_chart"
+                            />
+                        </div>
+                    </div>
+                </section>
+            </main>
+        </div>
+
+        <script
+            type="module"
+            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+        ></script>
+        <script
+            nomodule
+            src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+        ></script>
+    </body>
+</html>
